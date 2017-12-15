@@ -8,6 +8,9 @@
     <IncludeSource>True</IncludeSource>
     <Authors>Andrew Piper</Authors>
     <Description>A small library to setup cors options in asp.net core.</Description>
+    <PackageLicenseUrl>https://github.com/threax/Threax.AspNetCore.CorsManager/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/threax/Threax.AspNetCore.CorsManager</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/threax/Threax.AspNetCore.CorsManager</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

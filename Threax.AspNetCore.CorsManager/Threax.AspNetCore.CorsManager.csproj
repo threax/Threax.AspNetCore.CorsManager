@@ -2,10 +2,12 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Version>3.0.1</Version>
+    <Version>3.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSymbols>True</IncludeSymbols>
     <IncludeSource>True</IncludeSource>
+    <Authors>Andrew Piper</Authors>
+    <Description>A small library to setup cors options in asp.net core.</Description>
   </PropertyGroup>
 
   <ItemGroup>

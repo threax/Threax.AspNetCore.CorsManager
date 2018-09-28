@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Version>3.0.2</Version>
+    <Version>3.1.0-pre1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSymbols>True</IncludeSymbols>
     <IncludeSource>True</IncludeSource>
@@ -11,6 +11,7 @@
     <PackageLicenseUrl>https://github.com/threax/Threax.AspNetCore.CorsManager/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/threax/Threax.AspNetCore.CorsManager</PackageProjectUrl>
     <RepositoryUrl>https://github.com/threax/Threax.AspNetCore.CorsManager</RepositoryUrl>
+    <PackageReleaseNotes>Remove empty strings from cors, this makes adding slots to override in azure json replacement easier.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

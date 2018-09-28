@@ -42,6 +42,8 @@ namespace Microsoft.AspNetCore.Builder
             {
                 if (options.AllowedOrigins != null && options.AllowedOrigins.Count > 0)
                 {
+                    options.AllowedOrigins = options.AllowedOrigins.Where(i => !String.IsNullOrWhiteSpace(i)).ToList();
+
                     var sb = new StringBuilder();
                     foreach(var host in options.AllowedOrigins)
                     {

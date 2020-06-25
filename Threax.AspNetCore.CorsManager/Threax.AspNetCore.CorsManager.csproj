@@ -13,7 +13,15 @@
     <PackageProjectUrl>https://github.com/threax/Threax.AspNetCore.CorsManager</PackageProjectUrl>
     <RepositoryUrl>https://github.com/threax/Threax.AspNetCore.CorsManager</RepositoryUrl>
     <PackageReleaseNotes>Remove empty strings from cors, this makes adding slots to override in azure json replacement easier.</PackageReleaseNotes>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.0.1" />
